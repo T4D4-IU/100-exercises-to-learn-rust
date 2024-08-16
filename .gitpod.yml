@@ -7,5 +7,7 @@
 tasks:
   - init: cargo build
     command: cargo watch -x run
+  - init: cargo build
+    command: cargo install --locked workshop-runner
 
 

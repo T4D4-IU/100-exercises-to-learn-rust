@@ -5,6 +5,7 @@ fn is_even(n: u32) -> bool {
     } else {
         false
     }
+    // n % 2 == 0でも可。てかこっちの方がスマート
 }
 
 #[cfg(test)]
